@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+    background-color: aquamarine;
+}
+.main{
+    background-color: blanchedalmond;
+}
+.container{
+    display:flex;
+}
