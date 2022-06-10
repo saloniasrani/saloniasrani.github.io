@@ -4,6 +4,20 @@
 }
 .sidebar{
     background-color: aquamarine;
+    width: 10rem;
+    padding: 2.5rem;
+    height: 100vh;
+
+}
+.sidebar nav{
+    padding: 72;
+    /* height: 100vh; */
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    
 }
 .main{
     background-color: blanchedalmond;
@@ -11,3 +25,17 @@
 .container{
     display:flex;
 }
+.infoContainer{
+    background-color:brown;
+    height: 45vh;
+    width: 80vw;
+    margin: 144px;
+    display: flex;
+}
+/* .inViewPoint .fade-in [lazy=loaded] {
+    animation-name: fade-in;
+    animation-duration: 1.2s;
+    animation-delay: .3s;
+    animation-timing-function: cubic-bezier(.215,.61,.355,1);
+    animation-fill-mode: both;
+} */
