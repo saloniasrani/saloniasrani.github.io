@@ -1,41 +1,92 @@
-*{
-    padding: 0;
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 1rem;
+    color: #303137;
     margin: 0;
 }
-.sidebar{
-    background-color: aquamarine;
-    width: 10rem;
-    padding: 2.5rem;
-    height: 100vh;
+.navbar{
+    display: flex;
+    padding: 10px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.name, .nav-links, a{
+    text-transform: uppercase;
+    color: #303137;
+}
+.topnav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topnav .nav-links, a{
+    text-decoration: none; 
+    padding-left: 20px;
+    font-size: 20px;
+}
+.name{
+    font-size: 25px;
+}
+.surname{
+    color: #66B6D3;
+}
+.dropdownLink {
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.headshot-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.headshot {
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    ul.topnav li a.nav-links {
+        display: none;
+    }
+    ul.topnav li.dropdownLink {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+    ul.topnav.responsive li.dropdownLink {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    ul.topnav.responsive {
+        flex-direction: column;
+        text-align: right;
+    }
+
+    ul.topnav.responsive li {
+        position: relative;
+        top: 30px;
+        right: 30px;
+    }
+
+    ul.topnav.responsive li a.nav-links {
+        display: block;
+        line-height: 2;
+    }
 
 }
-.sidebar nav{
-    padding: 72;
-    /* height: 100vh; */
-}
-.sidebar nav li{
-    list-style: none;
-    font-size: 30px;
-    padding: 33px 0;
-    
-}
-.main{
-    background-color: blanchedalmond;
-}
-.container{
-    display:flex;
-}
-.infoContainer{
-    background-color:brown;
-    height: 45vh;
-    width: 80vw;
-    margin: 144px;
-    display: flex;
-}
-/* .inViewPoint .fade-in [lazy=loaded] {
-    animation-name: fade-in;
-    animation-duration: 1.2s;
-    animation-delay: .3s;
-    animation-timing-function: cubic-bezier(.215,.61,.355,1);
-    animation-fill-mode: both;
-} */

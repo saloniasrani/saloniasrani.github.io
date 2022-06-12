@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saloni's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-    <div class="sidebar">
-        <nav>
-            Saloni Asrani
-            <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Resume</li>
-                <li>Contact </li>
-            </ul>
-        </nav>
-    </div>
-    <div class="main">
-        <div class="infoContainer">
-           <div class="devInfo">
-               <div class="hello">Hi I am Saloni</div>
-           </div>
-            <div class="portpic"><img src="portpic.jpg" alt="Saloni Asrani"></div>
-        </div>
-        </div>
-    </div>
-    
-    <!-- <div class="lazy-img theBgImgDiv none" height="auto" width="100%" data-src="https://d3dvldql7ksohz.cloudfront.net/000_clients/3360369/page/b22845CRNfc1f9N.jpg" lazy="loaded" style="background-image: url(&quot;https://d3dvldql7ksohz.cloudfront.net/000_clients/3360369/page/b22845CRNfc1f9N.jpg&quot;);"></div> -->
-</div>
-</body>
-</html> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="name">Saloni<span class="surname">Asrani</span></div>
+      <ul class="topnav" id="navbar-toggle">
+        <li><a class="nav-links" href="#">Home</a></li>
+        <li><a class="nav-links" href="#">Projects</a></li>
+        <li><a class="nav-links" href="#">Resume</a></li>
+        <li><a class="nav-links" href="#">Contact</a></li>
+        <li class="dropdownLink">
+          <a onclick="toggleDropdown()" href="javascript:void(0)">&#9776;</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="headshot-wrapper">
+        <img class="headshot" src="portpic.jpg" alt="profile image" />
+        <h1>Saloni Asrani</h1>
+      </div>
+    </header>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
