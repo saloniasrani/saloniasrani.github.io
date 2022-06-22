@@ -7,15 +7,13 @@ html, body {
     font-size: 1rem;
     color: #303137;
     margin: 0;
-    border: 1px solid red;
 }
 .navbar{
     display: flex;
     padding: 10px;
-    /* max-width: 11px; */
-    width: 100%;
     margin: 0 auto;
     justify-content: space-between;
+    
 }
 .name, .nav-links, a{
     text-transform: uppercase;
@@ -52,6 +50,7 @@ header {
     padding: 6rem 2em;
     align-items: center;
     min-width: 200px;
+    text-align: center;
 }
 
 .headshot {
