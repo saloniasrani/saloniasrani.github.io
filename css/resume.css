@@ -8,6 +8,18 @@ html, body {
     color: #303137;
     margin: 0;
 }
+h3{
+    padding-top: 2pt;
+      padding-left: 5pt;
+      text-indent: 0pt;
+     
+}
+p{
+    padding-left: 5pt;
+      text-indent: 0pt;
+      line-height: 2pt;
+      
+}
 .navbar{
     display: flex;
     padding: 10px;
