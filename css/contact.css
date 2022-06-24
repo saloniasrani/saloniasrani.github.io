@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-variant: normal;
   color: #979f9b;
-  background-color: #04202e;
+  background-color: #000000;
 }
 .navbar {
   display: flex;
@@ -63,7 +63,7 @@ header {
 .headshot {
   border-radius: 50%;
   max-width: 200px;
-  border: 20px solid #61cdf4;
+  border: 5px solid #61cdf4;
 }
 .headshot-text {
   background-color: rgba(79, 82, 64, 0.709);
