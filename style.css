@@ -62,10 +62,9 @@ header {
 }
 
 .headshot {
-  /* border-radius: 50%; */
+  border-radius: 50%;
   max-width: 200px;
   width: 100%;
-  border: 50px dotted#61cdf4;
   margin-top: 40px;
 }
 .headshot-text {

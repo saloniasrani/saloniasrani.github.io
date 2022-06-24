@@ -63,7 +63,6 @@ header {
 .headshot {
   border-radius: 50%;
   max-width: 200px;
-  border: 5px solid #61cdf4;
 }
 .headshot-text {
   background-color: rgba(79, 82, 64, 0.709);
