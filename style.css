@@ -3,6 +3,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
+  color: #979f9b;
+  background-color: black;
 }
 .navbar {
   display: flex;
@@ -10,11 +12,16 @@ body {
   margin: 0 10px;
   justify-content: space-between;
 }
+.navbar a:hover,
+.navbar a.active {
+  color: #61cdf4;
+}
+
 .name,
 .nav-links,
 a {
   text-transform: uppercase;
-  color: #303137;
+  color: #979f9b;
 }
 .topnav {
   display: flex;
@@ -32,7 +39,7 @@ a {
   font-size: 25px;
 }
 .surname {
-  color: #66b6d3;
+  color: #61cdf4;
 }
 .dropdownLink {
   display: none;
@@ -54,6 +61,8 @@ header {
 .headshot {
   border-radius: 50%;
   max-width: 200px;
+  width: 100%;
+  border: 20px solid #61cdf4;
 }
 .headshot-text {
   background-color: rgba(248, 229, 187, 0.336);
@@ -65,9 +74,6 @@ header {
 .contact-container {
   background-color: #f1f3fa;
   padding: 4rem 1rem;
-}
-a:hover {
-  color: #66b6d3;
 }
 
 footer {

@@ -3,10 +3,14 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
+  color: #979f9b;
+  background-color: black;
 }
-a:hover {
-  color: #66b6d3;
+.navbar a:hover,
+.navbar a.active {
+  color: #61cdf4;
 }
+
 .container {
   display: flex;
   flex-direction: row-reverse;
@@ -18,9 +22,13 @@ a:hover {
   width: 60%;
 }
 h2 {
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
-  color: #4a4a4a;
+  color: #61cdf4;
+  text-decoration: underline;
+}
+h4 {
+  color: #ffd1f5;
 }
 .time-location {
   display: grid;
@@ -41,7 +49,7 @@ h2 {
 .nav-links,
 a {
   text-transform: uppercase;
-  color: #303137;
+  color: #979f9b;
 }
 .topnav {
   display: flex;
@@ -59,7 +67,7 @@ a {
   font-size: 25px;
 }
 .surname {
-  color: #66b6d3;
+  color: #61cdf4;
 }
 .dropdownLink {
   display: none;
@@ -81,16 +89,13 @@ header {
   display: inline;
 }
 
-.h2 {
-  display: flex;
-  flex-direction: row;
-  color: #055674;
-}
 .headshot {
   border-radius: 50%;
   max-width: 200px;
   width: 100%;
+  border: 50px dotted #61cdf4;
 }
+/* #ffd1f5 */
 .services,
 .contact-container {
   background-color: #f1f3fa;
