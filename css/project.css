@@ -12,9 +12,12 @@ body {
   margin: 0 10px;
   justify-content: space-between;
 }
-.navbar a:hover,
+
 .navbar a.active {
   color: #61cdf4;
+}
+.navbar a:hover {
+  color: #ffd1f5;
 }
 
 .name,

@@ -12,9 +12,12 @@ body {
   margin: 0 10px;
   justify-content: space-between;
 }
-.navbar a:hover,
+
 .navbar a.active {
   color: #61cdf4;
+}
+.navbar a:hover {
+  color: #ffd1f5;
 }
 
 .name,
@@ -59,10 +62,11 @@ header {
 }
 
 .headshot {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   max-width: 200px;
   width: 100%;
-  border: 20px solid #61cdf4;
+  border: 50px dotted#61cdf4;
+  margin-top: 40px;
 }
 .headshot-text {
   background-color: rgba(248, 229, 187, 0.336);

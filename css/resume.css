@@ -6,9 +6,12 @@ body {
   color: #979f9b;
   background-color: black;
 }
-.navbar a:hover,
+
 .navbar a.active {
   color: #61cdf4;
+}
+.navbar a:hover {
+  color: #ffffff;
 }
 
 .container {
@@ -28,7 +31,8 @@ h2 {
   text-decoration: underline;
 }
 h4 {
-  color: #ffd1f5;
+  color: #ffffff;
+  font-weight: 400;
 }
 .time-location {
   display: grid;
@@ -93,7 +97,7 @@ header {
   border-radius: 50%;
   max-width: 200px;
   width: 100%;
-  border: 50px dotted #61cdf4;
+  border: 5px solid #61cdf4;
 }
 /* #ffd1f5 */
 .services,

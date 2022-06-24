@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-variant: normal;
   color: #979f9b;
-  background-color: black;
+  background-color: #04202e;
 }
 .navbar {
   display: flex;
@@ -12,9 +12,12 @@ body {
   margin: 0 10px;
   justify-content: space-between;
 }
-.navbar a:hover,
+
 .navbar a.active {
   color: #61cdf4;
+}
+.navbar a:hover {
+  color: #ffd1f5;
 }
 .name,
 .nav-links,
@@ -60,7 +63,7 @@ header {
 .headshot {
   border-radius: 50%;
   max-width: 200px;
-  border: 50px dotted #61cdf4;
+  border: 20px solid #61cdf4;
 }
 .headshot-text {
   background-color: rgba(79, 82, 64, 0.709);
