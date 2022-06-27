@@ -12,7 +12,12 @@ body {
   margin: 0 10px;
   justify-content: space-between;
 }
-
+.icon-animation {
+  transition: transform 0.5s;
+}
+.icon-animation img:hover {
+  transform: translateY(-5px);
+}
 .navbar a.active {
   color: #61cdf4;
 }
@@ -59,12 +64,7 @@ header {
   text-align: center;
   width: 100%;
 }
-.icon-animation {
-  transition: transform 0.5s;
-}
-.icon-animation a:hover {
-  transform: translateY(-10px);
-}
+
 .headshot {
   border-radius: 50%;
   width: 250px;
