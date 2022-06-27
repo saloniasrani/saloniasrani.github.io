@@ -54,19 +54,21 @@ header {
 
 .headshot-wrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
   min-width: 200px;
   text-align: center;
   width: 100%;
+  padding: 40px;
+  gap: 20px;
 }
 
 .headshot {
-  border-radius: 50%;
-  width: 500px;
+  border-radius: 2%;
+  width: 400px;
   margin-top: 40px;
   height: 500px;
 }
+
 .headshot-text {
   background-color: rgba(248, 229, 187, 0.336);
   padding: 10px;

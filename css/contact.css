@@ -59,10 +59,17 @@ header {
   text-align: center;
   width: 100%;
 }
-
+.icon-animation {
+  transition: transform 0.5s;
+}
+.icon-animation a:hover {
+  transform: translateY(-10px);
+}
 .headshot {
   border-radius: 50%;
-  max-width: 200px;
+  width: 250px;
+  height: 300px;
+  margin-top: 40px;
 }
 .headshot-text {
   background-color: rgba(79, 82, 64, 0.709);
