@@ -10,7 +10,7 @@ body {
 .navbar a.active {
   color: #61cdf4;
 }
-.navbar a:hover {
+.navbar a:hover:not(.active) {
   color: #ffffff;
 }
 
@@ -98,11 +98,14 @@ header {
   max-width: 200px;
   width: 100%;
 }
-/* #ffd1f5 */
+
 .services,
 .contact-container {
   background-color: #f1f3fa;
   padding: 4rem 1rem;
+}
+footer {
+  text-align: center;
 }
 
 @media (max-width: 768px) {

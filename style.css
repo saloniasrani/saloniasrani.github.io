@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,200&display=swap");
+
 html,
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-variant: normal;
   color: #979f9b;
@@ -14,9 +16,9 @@ body {
 }
 
 .navbar a.active {
-  color: #61cdf4;
+  color: #64ffda;
 }
-.navbar a:hover {
+.navbar a:hover:not(.active) {
   color: #ffffff;
 }
 
@@ -42,48 +44,68 @@ a {
   font-size: 25px;
 }
 .surname {
-  color: #61cdf4;
+  color: #64ffda;
 }
 .dropdownLink {
   display: none;
-}
-header {
-  display: flex;
-  justify-content: center;
-}
-
-.headshot-wrapper {
-  display: flex;
-  align-items: center;
-  min-width: 200px;
-  text-align: center;
-  width: 100%;
-  padding: 40px;
-  gap: 20px;
-}
-
-.headshot {
-  border-radius: 2%;
-  width: 400px;
-  margin-top: 40px;
-  height: 500px;
-}
-
-.headshot-text {
-  background-color: rgba(248, 229, 187, 0.336);
-  padding: 10px;
-  width: 100%;
-  margin: 25px 0;
-}
-.services,
-.contact-container {
-  background-color: #f1f3fa;
-  padding: 4rem 1rem;
 }
 
 footer {
   text-align: center;
 }
+.container {
+  width: 60%;
+  margin: 50px 200px;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.intro {
+  font-size: 40px;
+  color: #64ffda;
+  font-weight: 200;
+}
+.letter {
+  font-size: 44px;
+  color: rgb(219, 225, 243);
+  font-weight: 300;
+}
+.profession {
+  font-weight: 200;
+  letter-spacing: 0.1px;
+  font-size: 40px;
+  color: rgb(136, 146, 176);
+}
+
+.wave-hand {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.wave-hand:hover {
+  animation-duration: 1s;
+  animation-name: wave;
+}
+
+@keyframes wave {
+  15% {
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+  30% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
+  }
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+  }
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
+  }
+}
+
 @media (max-width: 768px) {
   ul.topnav li a.nav-links {
     display: none;

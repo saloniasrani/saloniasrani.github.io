@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/project.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="name">Saloni<span class="surname">Asrani</span></div>
+      <ul class="topnav" id="navbar-toggle">
+        <li>
+          <a class="nav-links" id="home" href="../index.html">Home</a>
+        </li>
+        <li>
+          <a class="nav-links active" href="../html/project2.html" id="Projects"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="nav-links" id="Resume" href="../html/resume2.html"
+            >Resume</a
+          >
+        </li>
+        <li>
+          <a class="nav-links" id="Contact" href="../html/contact.html"
+            >Contact</a
+          >
+        </li>
+        <li class="dropdownLink">
+          <a onclick="toggleDropdown()" href="javascript:void(0)">&#9776;</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="project">
+        <div class="project-container">
+          <h1 class="project-title">Memory Card Game</h1>
+          <div class="project-description">
+            This game contains flashcards containing food pictures. There are 6
+            pairs in total and there is a timer running. Try to beat your own
+            score!
+          </div>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a
+              href="https://github.com/saloniasrani/memory-flashcards"
+              aria-label="GitHub Link"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                width="30px"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-github"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://saloniasrani.github.io/memory-flashcards/"
+              aria-label="External Link"
+              class="external"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-external-link"
+              >
+                <title>External Link</title>
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-image"><img src="../images/project1.png" /></div>
+      </div>
+      <div class="project right">
+        <div class="project-container">
+          <h1 class="project-title">Expense Tracker</h1>
+
+          <div class="project-description">
+            This application can be used to keep track of expenses and income.
+            Adding and deleting a transaction can be done.
+          </div>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+          </ul>
+          <div class="project-links">
+            <a
+              href="https://github.com/saloniasrani/expense-tracker-react"
+              aria-label="GitHub Link"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                width="30px"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-github"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://codesandbox.io/s/dazzling-leaf-qi5cq2"
+              aria-label="External Link"
+              class="external"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-external-link"
+              >
+                <title>External Link</title>
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-image">
+          <img src="../images/expensetracker.png" />
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-container">
+          <h1 class="project-title">Weather Application</h1>
+
+          <div class="project-description">
+            This application can be used to fetch weather conditions based on
+            city name.
+          </div>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+          </ul>
+          <div class="project-links">
+            <a
+              href="https://github.com/saloniasrani/weatherforecast"
+              aria-label="GitHub Link"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                width="30px"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-github"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://codesandbox.io/s/crazy-shtern-rqjjci"
+              aria-label="External Link"
+              class="external"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-external-link"
+              >
+                <title>External Link</title>
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-image">
+          <img src="../images/weather.png" />
+        </div>
+      </div>
+      <div class="project right">
+        <div class="project-container">
+          <h1 class="project-title">StopWatch</h1>
+
+          <div class="project-description">
+            This application can be used to keep track of expenses and income.
+            Adding and deleting a transaction can be done.
+          </div>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+          </ul>
+          <div class="project-links">
+            <a
+              href="https://github.com/saloniasrani/stopwatch"
+              aria-label="GitHub Link"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                width="30px"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-github"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://codesandbox.io/s/timercounter-k9s7f2"
+              aria-label="External Link"
+              class="external"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-external-link"
+              >
+                <title>External Link</title>
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                ></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="project-image"><img src="../images/stopwatch.png" /></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../main.js"></script>
+    <footer>
+      <p style="margin-top: 300px">&copy; Saloni Asrani 2022</p>
+    </footer>
+  </body>
+</html>
