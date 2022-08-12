@@ -137,13 +137,4 @@ footer {
     display: block;
     line-height: 2;
   }
-  .headshot {
-    width: 100%;
-    float: none;
-    padding: 6rem 0;
-  }
-  .headshot-wrapper {
-    width: 100%;
-    float: none;
-  }
 }
